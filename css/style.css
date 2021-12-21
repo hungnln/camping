@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    background-color: #faf4f2;
+}
+
+#header {
+    background-color: #f8e1db;
+    padding: 20px 0;
+}
+
+#header img {
+    margin-left: 95px;
+    width: 65px;
+}
+
+#header ul {
+    list-style: none;
+    margin-left: 60px;
+}
+
+#header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+
+#carousel {
+    background-image: url(./../images/BG.png);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+#activities {
+    margin-top: 70px;
+}
+
+#activities .activities__title {
+    text-align: center;
+    color: #8d8d8d;
+    margin-top: -20px;
+}
+
+#activities .activities__title img {
+    width: 120px;
+}
+
+#activities .activities__title h1 {
+    font-size: 40px;
+}
+
+.activities__list .activities__item {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.activities__content {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.activities__img {
+    position: relative;
+}
+
+.activities__img img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.activities__img i {
+    color: red;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #ffffff8c;
+    border-radius: 8px;
+    width: 50px;
+    height: px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.activities__content p {
+    color: #a2a2a2;
+    font-size: 20px;
+}
+
+.activities__content button {
+    color: #adadad;
+    background-color: #e8e8e8;
+    border: none;
+    margin-top: 20px;
+    padding: 15px 70px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.activities__view_all {
+    text-align: center;
+}
+
+.activities__view_all button {
+    color: #efa492;
+    border: 2px solid #efa492;
+    border-radius: 30px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    padding: 20px 80px;
+    margin: 20px 0 80px;
+}
+
+/* Contact */
+#contact {
+    background-color: #f8e1db;
+}
+
+#contact .contact__left, #contact .contact__right {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#contact .contact__left {
+    height: 100%;
+    background-image: url(.././images/mask.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact .contact__left img {
+    height: 440px;
+    margin: 40px;
+}
+
+#contact .contact__right {
+    width: 40%;
+    padding: 50px 0px 100px;
+    color: #929191;
+}
+
+#contact .contact__right h2 {
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+#contact .contact__right p {
+    font-size: 24px;
+}
+
+#contact .contact__right--download, #contact .contact__right--social {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#contact .contact__right--download h3, #contact .contact__right--social h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#contact .contact__right--download img {
+    width: 48%;
+}
+
+#contact .contact__right--social i {
+    margin-right: 10px;
+    color: #e76f51;
+    font-size: 32px;
+}
+
+#footer {
+    margin-top: 150px;
+    background-color: #f8e1db;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#footer .footer__left--out, #footer .footer__left--in, #footer .footer__right--in, #footer .footer__right--out {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 80px 40px 40px;
+}
+
+#footer .footer__left--out {
+    float: left;
+    width: 40%;
+}
+
+#footer .footer__left--out p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+#footer .footer__left--in, #footer .footer__right--in, #footer .footer__right--out {
+    float: left;
+    width: 20%;
+
+}
+
+#footer .footer__copyright {
+    text-align: center;
+    padding-bottom: 50px;
+}
